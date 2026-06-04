@@ -20,6 +20,9 @@ function startUX() {
             console.log("Set Local description error");
         });
     }
+    let p1 = document.getElementById("P1");
+    p1.innerHTML = "Click <button onclick='startCall()' id='doit' class='btn btn-danger'>Test</button> to conduct a test. "
+
 }
 
 // called when webRTC presents us with a fresh remote audio/video stream
